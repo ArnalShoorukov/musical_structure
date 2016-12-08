@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <string name="playing">Now Playing</string>
+    <string name="artist">List artists</string>
+    <string name="album">List albums</string>
+    <string name="store">Store</string>
+    <string name="search">Search</string>
+
+    //names for list
+    <string name="name">Name</string>
+    <string name="one">Sample1</string>
+    <string name="two">Sample2</string>
+    <string name="three">Sample3</string>
+    <string name="four">Sample4</string>
+    <string name="five">Sample5</string>
+    <string name="six">Sample6</string>
+    <string name="seven">Sample7</string>
+
+
+    //names for artists
+    <string name="nameArtist">Artists</string>
+    <string name="genre">Genre</string>
+    <string name="artFirst">Classical</string>
+    <string name="artSecond">Rock</string>
+    <string name="artThird">Rap</string>
+    <string name="artFour">Slow</string>
+    <string name="artFive">Natural</string>
+    <string name="artSix">Jazz</string>
+
+
+    <string name="date">Date Modified</string>
+    <string name="dateFirst">22.09.2016</string>
+    <string name="dateSecond">21.06.2015</string>
+    <string name="dateThird">15.08.2015</string>
+    <string name="dateFour">14.08.2014</string>
+    <string name="dateFive">04.08.2015</string>
+    <string name="dateSix">18.03.2012</string>
+
+
+
+    //numbers of list
+    <string name="first_list">1</string>
+    <string name="second_list">2</string>
+    <string name="third_list">3</string>
+    <string name="forth_list">4</string>
+    <string name="five_list">5</string>
+    <string name="six_list">6</string>
+    <string name="seven_list">7</string>
+
+
+    <string name="search_music">Search by</string>
+    <string name="nameArtistS">artists name</string>
+    <string name="albumS">Album</string>
+    <string name="nameAlbumS">album name</string>
+    <string name="nameDateS">modified date</string>
+    <string name="dateS">Date</string>
+
+    <string name="purpose_album">The purpose of activity is browse audios by album</string>
+    <string name="purpose_artist">The purpose of activity is browse audios by artist</string>
+    <string name="purpose_store">The purpose of activity is to buy trended new audios. Also i will use Strip Library for my payment process.</string>
+    <string name="purpose_search">The purpose of activity is to search audio which you like</string>
+    <string name="purpose_play">The purpose of activity is show currently playing audio. For playing audio i will use class MediaPlayer.</string>
+
+</resources>

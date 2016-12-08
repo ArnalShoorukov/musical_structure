@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_search"
+    tools:context="com.example.android.musicalstructure.Search"
+    >
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_search"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/back"
+            style="@style/back"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/search_music"
+            android:layout_weight="2"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/artist_search"
+        android:layout_below="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/background_search_a"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nameArtist"
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="left"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameArtistS"
+            android:textStyle="italic"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/album_search"
+        android:layout_below="@+id/artist_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/background_search_b"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/albumS"
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="left"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <EditText
+            android:id="@+id/editTextTwo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameAlbumS"
+            android:textStyle="italic"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/date_search"
+        android:layout_below="@+id/album_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/background_search_a"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dateS"
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="left"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <EditText
+            android:id="@+id/editTextThree"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/nameDateS"
+            android:textStyle="italic"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/search"
+        android:layout_below="@+id/date_search"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:text="@string/purpose_search"
+        android:padding="4dp"
+        android:layout_margin="4dp" />
+</RelativeLayout>

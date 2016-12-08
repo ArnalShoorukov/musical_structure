@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_main"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/first"
+        android:scaleType="fitXY"/>
+
+
+    <TextView
+        android:id="@+id/playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/playing"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-light"
+        android:background="#FF3F80"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_below="@id/playing"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="List artists"
+            android:textSize="28sp"
+            android:background="#FF3F80"
+            android:layout_margin="2dp"
+            android:padding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="List albums"
+            android:textSize="28sp"
+            android:background="#FF3F80"
+            android:layout_margin="2dp"
+            android:padding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/store"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Store"
+            android:textSize="28sp"
+            android:background="#FF3F80"
+            android:layout_margin="2dp"
+            android:padding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+
+            />
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="28sp"
+            android:background="#FF3F80"
+            android:layout_margin="2dp"
+            android:padding="4dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

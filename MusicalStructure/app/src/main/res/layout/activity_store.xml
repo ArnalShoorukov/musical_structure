@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/scroll">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_search"
+    tools:context="com.example.android.musicalStructure.Store">
+
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store"
+        android:weightSum="2">
+
+    <ImageView
+        android:id="@+id/back"
+        style="@style/back"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/store"
+            android:layout_weight="2"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="2dp"
+            android:layout_margin="2dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/store_first"
+        android:layout_below="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_a"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/first_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/store_second"
+        android:layout_below="@+id/store_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_b"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/second_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/store_third"
+        android:layout_below="@+id/store_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_a"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/third_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/store_four"
+        android:layout_below="@+id/store_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_b"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/forth_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/store_five"
+        android:layout_below="@+id/store_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_a"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/five_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/store_six"
+        android:layout_below="@+id/store_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_b"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/six_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/store_seven"
+        android:layout_below="@+id/store_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_store_a"
+        android:weightSum="3"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seven_list"
+            android:layout_weight="0.5"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:layout_weight="2"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="4dp"/>
+
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/store_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/buy"
+        android:layout_below="@+id/store_seven"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store_image"
+        android:text="@string/purpose_store"
+        android:padding="4dp"
+        android:layout_margin="4dp" />
+</RelativeLayout>
+</ScrollView>

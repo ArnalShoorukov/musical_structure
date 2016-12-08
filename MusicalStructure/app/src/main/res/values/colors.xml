@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app -->
+    <color name="background">#FF1234</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="background_album">#03a9f4</color>
+    <color name="background_album_a">#b3e5fc</color>
+    <color name="background_album_b">#e1f5fe</color>
+
+    <color name="background_artist">#4caf50</color>
+    <color name="background_artist_a">#e8f5e9</color>
+    <color name="background_artist_b">#c8e6c9</color>
+
+    <color name="background_search">#9c27b0</color>
+    <color name="background_search_a">#e1bee7</color>
+    <color name="background_search_b">#ce93d8</color>
+
+
+    <color name="background_store">#00bcd4</color>
+    <color name="background_store_a">#e0f7fa</color>
+    <color name="background_store_b">#b2ebf2</color>
+</resources>
